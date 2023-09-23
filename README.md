@@ -14,23 +14,40 @@ This Java project is a simple personal account management system that allows use
 The project consists of the following key components:
 
 ### 1. Amount Class
-The `Amount` class represents a financial transaction with attributes such as `amount` and `transactionType`. It provides methods to retrieve these attributes.
+...
 
-```java
-public class Amount {
-    private double amount;
-    private String transactionType;
+### 2. PersonalAccount Class
+...
 
-    public Amount(double theamount, String theTransactionType) {
-        amount = theamount;
-        transactionType = theTransactionType;
-    }
+### 3. Main Class
+...
 
-    public double getAmount() {
-        return amount;
-    }
+## Usage
+To use this personal account management system, follow these steps:
 
-    public String getTransactionType() {
-        return transactionType;
-    }
-}
+1. Clone or download the project repository from GitHub.
+
+2. Compile the Java files using a Java compiler (e.g., `javac`).
+
+3. Run the `Main` class to interact with the system.
+
+## Classes
+### Amount Class
+...
+
+### PersonalAccount Class
+...
+
+#### Methods:
+...
+
+### Main Class
+...
+
+## Getting Started
+To run the project locally, follow these steps:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/personal-account-management.git
